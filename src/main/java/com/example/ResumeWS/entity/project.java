@@ -29,9 +29,7 @@ public class project {
     @Column(length = 256)
     private String descri;
 
-	public Long getId() {
-		return id;
-	}
+
 	public void setId(Long id) {
 		this.id = id;
 	}
