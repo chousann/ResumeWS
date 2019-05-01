@@ -49,7 +49,7 @@ public class MyInfoController {
     }
 	
 	@CrossOrigin
-	@RequestMapping(value = "/getinfo", method = RequestMethod.POST)
+	@RequestMapping(value = "/getinfo", method = RequestMethod.POST, produces = "application/json; charset=utf-8")
 //	@ResponseBody
 	@ResponseStatus(HttpStatus.NOT_IMPLEMENTED)
     public ResponseEntity<ResponseModel> getInfo(@RequestBody RequestModel model) {

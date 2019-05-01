@@ -7,6 +7,7 @@ spring:
     username: zhangxueshan
     password: yangzhihui
     driverClassName: org.h2.Driver
+    sql-script-encoding: utf-8
   jpa:
     hibernate:
       ddl-auto: update
